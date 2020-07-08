@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scrapped Images</title>
+</head>
+<body>
+<div class="table-users">
+   <div class="header">Some of the scrapped images:</div>
+    <table>
+{% for user_image in user_images %}
+        <td width="100">
+            <img width="300" height="300" src="{{ user_image }}" alt="User Image"></td
+                  >      
+{% endfor %}
+    </table>
+</div>
+</body>
+</html>

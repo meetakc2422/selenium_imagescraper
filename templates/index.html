@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block body %}
+
+ <body>
+  <div class = "header">
+    <form action="/imagesp" method="POST">
+      <h1> Search item here</h1>
+
+        <div class="search-box">
+        <input type="text" name="content" class="search-txt" placeholder="type here">
+        <button type="submit" class ="search-btn" >
+        <i class="fas fa-search"></i>
+    	</button>
+  </div>   
+</form>
+</div>
+ </body>
+
+
+ </html>
+ {% endblock %}	
